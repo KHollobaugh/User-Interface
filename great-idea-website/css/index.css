@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-nav {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	padding: 5px;
+	background-color: white;
+	z-index: 100;
+}
+
+.main-nav a {
+	display: inline-block;
+	margin-right: 45px;
+	background: white;
+	color: gray;
+	text-decoration: none;
+	text-align: center;
+}
+
+header {
+	display: inline-block;
+	width: 90%;
+	margin: 0 auto;
+	border: 5px black;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+.title-section {
+	display: inline-block;
+}
+
+.title-section h1 {
+	margin-top: 10px;
+	font-size: 70px;
+	text-align: center;
+	display: inline;
+}
+
+.title-section a {
+	vertical-align: top;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border: 1px solid black;
+	background: white;
+	color: black;
+}
+
+.title-section img {
+display: inline-block;
+align-content: center;
+margin: 100px 0px 0px 0px;
+}
+
+.heading {
+display: inline-block;
+margin-bottom: 100px;
+margin-left: 100px;
+margin-right: 50px;
+text-align: center;
+}
+
+.upper-text {
+	display: inline-block;
+	border-top: 2px solid gray;
+}
+
+.upper-box {
+	display: inline-block;
+	margin: 10px;
+	width: 45%;
+	height: 150px;
+	position: relative;
+}
+
+.lower-text {
+	display: inline-block;
+	border-bottom: 2px solid gray;
+}
+
+.lower-box {
+	display: inline-block;
+	margin: 10px;
+	width: 30%;
+	height: 150px;
+}
+
+.contact {
+	margin: 50px 0px;
+}
+
+.address {
+	margin: 25px 0px;
+}
